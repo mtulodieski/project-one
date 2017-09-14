@@ -1,0 +1,110 @@
+/*anchor tag*/      
+
+.banner{
+                text-align:center;
+                
+           }
+            .header{
+                width: 53%;
+                background-color:mediumpurple;
+                font-family: 'Titillium Web', sans-serif;
+                color: white;
+                padding: 20px;
+                margin: auto;
+                text-align:center;
+                
+            }
+            .nav{
+                width:53%;
+                background-color: mediumpurple;
+                font-family: 'Titillium Web', sans-serif;
+                color: white;
+                padding: 20px;
+                margin: auto;
+                text-align: center;
+            }
+            .p{
+                width: 53%;
+                background-color: darkolivegreen;
+                font-family: 'Titillium Web', sans-serif;
+                color: white;
+                padding: 20px;
+                margin:auto;
+                text-align:center;
+                line-height: 35px;
+            
+            }
+            .list{
+                width: 53%;
+                background-color: mediumpurple;
+                font-family: 'Titillium Web', sans-serif;
+                color: white;
+                padding: 20px;
+                margin:auto;
+                text-align:left;
+                line-height: 35px;
+            }
+            a{
+                color: white; 
+                text-decoration: none; 
+                line-height: 35px;
+            
+            }
+            .center{
+                margin: auto;
+                display: block;
+                max-width: 100%;
+            }
+            .nav a:hover{
+                background-color: mediumpurple;
+                color: gold;
+            }
+            ADD CONTAINER
+            .col{
+                float: left;
+                padding: 20px;
+                box-sizing: border-box;
+                
+            }
+            .half{
+                width: 50%;
+            }
+            @media only screen and (max-width: 768px){
+                .col{
+                float: none;
+                }
+                .half{
+                    width: 100%;
+                }
+
+            
+            
+
+   <body>
+        <div class="">
+        <div class="banner">
+            <img src="http://www.tccmarin.org/wp-content/uploads/2015/02/header1.jpg" width: 55%;>
+            
+        
+        </div>
+        <div class="header">
+            <h1>BICYCLES</h1>
+        </div>
+        <div class="nav">
+            <p><a href="one.html">one</a> <a href="two.html">two</a> <a href="three.html">three</a> <a href="four.html">four</a></p>
+        </div>
+    
+       <div class="list">
+            <ul>
+                <li>Page One: History</li>
+                <li>Page Two: Health Benefits</li>
+                <li>Page Three: Effects on Environment</li>
+                <li>Page Four: Contact</li>
+               
+           </ul>
+           
+        </div>
+        <script>
+        
+        </script>
+    </body>
